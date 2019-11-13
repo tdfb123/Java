@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b39c299b-c075-41ba-83de-62ad28da1f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/db1/db1start/aula1_double2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/db1/db1start/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/db1/db1start/aula2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,11 +15,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/aula1_double2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="462">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/aula2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+              <folding>
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +69,6 @@
         <option value="$PROJECT_DIR$/src/com/db1/db1start/AppTest.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/treinamento.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/Application.java" />
-        <option value="$PROJECT_DIR$/src/com/db1/db1start/App.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/aula1.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/aula1_soma.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/aula2_subtracao.java" />
@@ -53,6 +77,8 @@
         <option value="$PROJECT_DIR$/src/com/db1/db1start/aula1_texto_minusculo.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/aula1_double.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/aula1_double2.java" />
+        <option value="$PROJECT_DIR$/src/com/db1/db1start/App.java" />
+        <option value="$PROJECT_DIR$/src/com/db1/db1start/aula2.java" />
       </list>
     </option>
   </component>
@@ -98,7 +124,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573649016984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573655299071" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -116,7 +142,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.aula1_double2">
+  <component name="RunManager" selected="Application.aula2">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.App" />
+      <module name="DB1 Start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.db1start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="aula1_double" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.aula1_double" />
       <module name="DB1 Start" />
@@ -143,32 +182,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula1_subtracao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.aula1_subtracao" />
-      <module name="DB1 Start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.db1start.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aula1_texto_maiusculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.aula1_texto_maiusculo" />
-      <module name="DB1 Start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.db1start.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="aula1_texto_minusculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.aula1_texto_minusculo" />
       <module name="DB1 Start" />
@@ -182,13 +195,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="aula2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.aula2" />
+      <module name="DB1 Start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.db1start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aula2" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.aula1_double2" />
         <item itemvalue="Application.aula1_double" />
         <item itemvalue="Application.aula1_texto_minusculo" />
-        <item itemvalue="Application.aula1_texto_maiusculo" />
-        <item itemvalue="Application.aula1_subtracao" />
       </list>
     </recent_temporary>
   </component>
@@ -207,8 +233,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="920" y="0" width="1007" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28194296" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28194296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -241,9 +268,6 @@
     <entry file="file://$PROJECT_DIR$/src/app.java" />
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/treinamento.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -286,10 +310,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/aula1_double2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="462">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/aula2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
