@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b39c299b-c075-41ba-83de-62ad28da1f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/db1/db1start/aula1_texto_maiusculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/db1/db1start/aula1_texto_minusculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,7 +15,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/aula1_texto_maiusculo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/aula1_texto_minusculo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
@@ -50,6 +50,7 @@
         <option value="$PROJECT_DIR$/src/com/db1/db1start/aula2_subtracao.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/aula1_subtracao.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/aula1_texto_maiusculo.java" />
+        <option value="$PROJECT_DIR$/src/com/db1/db1start/aula1_texto_minusculo.java" />
       </list>
     </option>
   </component>
@@ -95,7 +96,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573648622198" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573648749388" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -113,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.aula1_texto_maiusculo">
+  <component name="RunManager" selected="Application.aula1_texto_minusculo">
     <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.app" />
       <module name="DB1 Start" />
@@ -166,8 +167,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.aula2" />
+    <configuration name="aula1_texto_minusculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.aula1_texto_minusculo" />
       <module name="DB1 Start" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aula1_texto_minusculo" />
         <item itemvalue="Application.aula1_texto_maiusculo" />
         <item itemvalue="Application.aula1_subtracao" />
         <item itemvalue="Application.app" />
         <item itemvalue="Application.aula1_soma" />
-        <item itemvalue="Application.aula2" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +264,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/aula1_texto_maiusculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="5" lean-forward="true" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/aula1_texto_minusculo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
