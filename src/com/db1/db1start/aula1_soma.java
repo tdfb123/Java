@@ -1,4 +1,6 @@
 package com.db1.db1start;
+
+
 public class aula1_soma {
 
     public static void main(String[] args) {
@@ -11,7 +13,5 @@ public class aula1_soma {
         resultado = numero1 + numero2;
 
         System.out.println("A soma de 54 + 45 é igual a " + resultado);
-
     }
-
 }
