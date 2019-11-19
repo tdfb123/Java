@@ -5,17 +5,10 @@ import java.util.Date;
 
 public class App {
     public static void main(String[] args) {
-        Aluno aluno1 = new Aluno();
-        aluno1.nome = "Maiko Cunha";
-        aluno1.email = "maiko.cunha@db1.com.br";
+        Aluno aluno1 = new Aluno("Maiko Cunha", "maiko.cunha@db1.com.br", 5.0);
+        Aluno aluno2 = new Aluno("João Silva", "joao.silva@db1.com.br", 5.0);
 
-        Aluno aluno2 = new Aluno();
-        aluno2.nome = "João Silva";
-        aluno2.email = "joao.silva@db1.com.br";
-
-        Professor professor = new Professor();
-        professor.nome = "Igor Silva";
-        professor.email = "igor.silva@db1.com.br";
+        Professor professor = new Professor("Igor Silva", "igor.silva@db1.com.br",5000.00);
 
         Materia materia = new Materia();
         materia.nome = "POO";

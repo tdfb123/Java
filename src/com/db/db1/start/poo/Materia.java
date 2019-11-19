@@ -1,6 +1,6 @@
 package com.db.db1.start.poo;
 
-public class Materia extends Professor {
+public class Materia {
     public String nome;
     public String descricao;
     public Double cargaHoraria;

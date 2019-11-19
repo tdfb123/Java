@@ -3,7 +3,7 @@ package com.db.db1.start.poo;
 import java.util.Date;
 import java.util.List;
 
-public class Aula extends Aluno {
+public class Aula {
     public Date data;
     public Materia materia;
     public List<Aluno> alunos;
