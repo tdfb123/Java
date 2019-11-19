@@ -7,6 +7,9 @@ public class Materia {
     public Professor professor;
     public Integer quantidadeAulas;
 
+    public Materia(String nome, String descricao, Double cargaHoraria, String professor, Integer quantidadeAulas) {
+
+    }
 
     @Override
     public String toString() {

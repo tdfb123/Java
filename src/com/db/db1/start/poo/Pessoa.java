@@ -10,6 +10,14 @@ public abstract class Pessoa {
         this.email = email;
     }
 
+    public String getEmail(){
+        return email;
+    }
+
+    public String getNome(){
+        return nome;
+    }
+
     @Override
     public String toString() {
         return "Pessoa{" +
