@@ -5,8 +5,22 @@ public class Aluno extends Pessoa {
 
 
     public Aluno(String nome, String email, Double nota) {
-        super(nome, email);
-        this.nota = nota;
+        if (nome == null) {
+            throw new CampoNaoPodeSerNulo("Nome não pode ficar em branco");
+        }
+
+        if (email == null) {
+            throw new CampoNaoPodeSerNulo("Email não pode ficar em branco");
+        }
+
+        if (nota == null) {
+            throw new CampoNaoPodeSerNulo("Nota não pode ficar em branco");
+
+        }
+
+        this.nome = nome;
+        this.email = email;
+
     }
 
     @Override

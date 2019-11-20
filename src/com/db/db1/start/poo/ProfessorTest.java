@@ -13,5 +13,4 @@ public class ProfessorTest {
         Assert.assertEquals(nome, professor.getNome());
         Assert.assertEquals(email, professor.getEmail());
     }
-
 }
