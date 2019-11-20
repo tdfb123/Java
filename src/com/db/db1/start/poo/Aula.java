@@ -8,6 +8,17 @@ public class Aula {
     public Materia materia;
     public List<Aluno> alunos;
 
+    public Aula(Date data, Materia materia) {
+        this.data = data;
+        this.materia = materia;
+    }
+
+    public void darPresenca(Aluno aluno) {
+        this.alunos.add(aluno) {
+            this.alunos.add()
+        }
+    }
+
     @Override
     public String toString() {
         return "Aula{" +

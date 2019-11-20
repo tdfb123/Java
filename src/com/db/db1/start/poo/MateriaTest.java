@@ -6,6 +6,24 @@ import org.junit.Test;
 public class MateriaTest {
 
     @Test
+    public void deveJogarNoExceptionComNomeNulo() {
+        String nome = "POO";
+        String descricao = "Abstração, Encapsulamento, Polimorfismo, Herança";
+        Double cargaHoraria = 10.5;
+        Integer quantidadeAulas = 3;
+
+        try {
+            Materia materia = new Materia(null, descricao, cargaHoraria, quantidadeAulas, professor);
+        }
+    }
+
+
+
+
+
+
+
+    @Test
     public void DeveCriarMateriaPorMeioDoConstrutor() {
         String nome = "Cálculo 2";
         String descricao = "Estudo das derivadas";

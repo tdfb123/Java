@@ -13,27 +13,27 @@ public class Materia {
 
     public Materia(String nome, String descricao, Professor professor, Double cargaHoraria, Integer quantidadeAulas) {
         if (nome == null) {
-            throw new CampoNaoPodeSerNulo("Nome da materia não pode ficar em branco");
+            throw new CampoNaoPodeSerNulo("Nome da materia não pode ser nulo");
 
         }
 
         if (descricao == null) {
-            throw new CampoNaoPodeSerNulo("Descricao da materia não pode ficar em branco");
+            throw new CampoNaoPodeSerNulo("Descricao da materia não pode ser nulo");
 
         }
 
         if (professor == null) {
-            throw new CampoNaoPodeSerNulo("Professor não pode ficar em branco");
+            throw new CampoNaoPodeSerNulo("Professor não pode ser nulo");
 
         }
 
         if (cargaHoraria == null) {
-            throw new CampoNaoPodeSerNulo("A carga horaria não pode ficar em branco");
+            throw new CampoNaoPodeSerNulo("Carga horaria não pode ser nulo");
 
         }
 
         if (quantidadeAulas == null) {
-            throw new CampoNaoPodeSerNulo("A quantidade de aulas não pode ficar em branco");
+            throw new CampoNaoPodeSerNulo("Quantidade de aulas não pode ser nulo");
 
         }
         this.nome = nome;
