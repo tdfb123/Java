@@ -2,37 +2,29 @@ package com.db.db1.start.poo;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class App {
-    public static void main(String[] args) {
-        Aluno aluno1 = new Aluno("Maiko Cunha", "maiko.cunha@db1.com.br", 5.0);
-        Aluno aluno2 = new Aluno("João Silva", "joao.silva@db1.com.br", 5.0);
 
+    public static void main(String[] args) {
+        Aluno aluno1 = new Aluno("Maiko Cunha", "maiko.cunha@db1.com.br");
+        Aluno aluno2 = new Aluno("João Silva", "joao.silva@db1.com.br");
         Professor professor = new Professor("Igor Silva", "igor.silva@db1.com.br",5000.00);
 
-        Materia materia = new Materia();
-        materia.nome = "POO";
-        materia.descricao = "Abstração, Encapsulamento, Polimorfismo, Herança";
-        materia.cargaHoraria = 10.5;
-        materia.quantidadeAulas = 3;
-        materia.professor = professor;
+        String.nome = "POO";
+        String.descricao = "Abstração, Encapsulamento, Polimorfismo, Herança";
+        Double.cargaHoraria = 10.5;
+        Integer.quantidadeAulas = 3;
+        Materia materia = new Materia(nome, descricao, cargaHoraria, quantidadeAulas, professor);
 
-        Aula aula = new Aula();
-        aula.data = new Date();
-        aula.materia = materia;
-        aula.alunos = new ArrayList<Aluno>();
-        aula.alunos.add(aluno1);
-        aula.alunos.add(aluno2);
+        Date data = new Date();
+        List<Aluno> alunos = new ArrayList<Aluno>();
+        alunos.add(aluno1);
+        alunos.add(aluno2);
+        Aula aula = new Aula(data, materia);
 
         System.out.println(aula);
 
-        aula.toString();
-
-
-
-
-
     }
-
 
 }

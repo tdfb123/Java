@@ -1,12 +1,9 @@
 package com.db.db1.start.poo;
 
-public class Pessoa {
-    protected String nome;
-    protected String email;
+public abstract class Pessoa {
+    private String nome;
+    private String email;
 
-    public Pessoa(){
-
-    }
 
     public Pessoa(String nome, String email) {
         if (nome == null) {

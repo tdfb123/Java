@@ -8,12 +8,11 @@ public class MateriaTest {
     @Test
     public void deveJogarNoExceptionComNomeNulo() {
         String nome = "POO";
-        String descricao = "Abstração, Encapsulamento, Polimorfismo, Herança";
-        Double cargaHoraria = 10.5;
-        Integer quantidadeAulas = 3;
-
         try {
             Materia materia = new Materia(null, descricao, cargaHoraria, quantidadeAulas, professor);
+        } catch (CampoNaoPodeSerNulo naoPodeSerNulo) {
+            Assert.assertEquals("Nome não pode ser nulo", naoPodeSerNulo.getMessage());
+
         }
     }
 
