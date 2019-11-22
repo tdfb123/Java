@@ -16,7 +16,7 @@ public class Materia {
     }
 
     public void trocaProfessor(Professor professor) {
-
+        this.professor = professor;
     }
 
 

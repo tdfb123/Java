@@ -15,7 +15,7 @@ public class AulaTest {
         Aluno aluno = new Aluno("aluno@email.com", "Aluno");
         List<Aluno> alunos = new ArrayList<Aluno>();
         alunos.add(aluno);
-        Professor professor = new Professor("Igor Silva", "igor.silva@db1.com.br");
+        Professor professor = new Professor("Igor Silva", "igor.silva@db1.com.br", 5000.00);
         Materia materia = new Materia("POO","Abstração, Encapsulamento, Polimorfismo, Herança", 10.5, professor, 3);
 
         Aula aula = new Aula(data, materia);
@@ -28,7 +28,7 @@ public class AulaTest {
         String email = "maiko.cunha@db1.com.br";
         String nome = "Maiko Cunha";
         Date data = new Date();
-        Professor professor = new Professor("Igor Silva", "igor.silva@db1.com.br");
+        Professor professor = new Professor("Igor Silva", "igor.silva@db1.com.br", 5000.00);
         Materia materia = new Materia("POO", "Abstração, Encapsulamento, Polimorfismo, Herança", 10.5, professor, 3);
         Aula aula = new Aula(data, materia);
 
